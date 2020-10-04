@@ -1,0 +1,47 @@
+Algunas definiciones de IA en FOCO
+
+El Desafío
+Nuestro desafío es desarrollar una aplicación que prediga el comportamiento del fuego en caso de incendios forestales, otorgando información útil para el desarrollo efectivo de tácticas que logren la mitigación veloz y eficiente de dichos incendios. 
+Aprovechando los datos recopilados en distintos repositorios sobre condiciones climáticas, condiciones del suelo y la vegetación y topología como input de un modelo ya que desde hace décadas, se vienen acumulando datos e información que en la actualidad no son utilizadas como herramientas a dicho fin. 
+
+Este desafío tiene su raíz en la relevancia que tiene para la vida humana la preservación de los recursos naturales y con la motivación en la búsqueda de ideas y aplicaciones innovadoras que faciliten la tarea de los organismos encargados de tal catástrofe.
+ 
+La Motivación
+Como un grupo humano que valora la vida y la preservación de nuestro planeta, sentimos la necesidad de hacer algo en relación a los incendios, poniendo al servicio nuestras capacidades y conocimientos técnicos a fin de evitar la destrucción masiva de recursos que tardan años en recuperarse. 
+
+A saber: 
+ 
+En esta noticia leída hace un tiempo, se indicaba: 
+“En ese lapso las Sierras Chicas fueron las más golpeadas; el área quemada representa el 38% de su extensión total. En el período medido, se registraron 5358 incendios, muchos de los cuales alcanzaron a las mismas tierras”.
+Lo que más nos llamó la atención fue que, para obtener las cifras, se superpusieron imágenes satelitales con uno de los incendios y fueron detectando las zonas quemadas y las que no:
+“El año de más incendios fue el 2003, con un total de 364 que perjudicaron 102.992 hectáreas. Sin embargo, el récord de superficie quemada es de 2013, con 106.206 hectáreas consumidas por 153 focos de fuego. 
+"Las zonas que más veces se quemaron en el lapso estudiado son relativamente pequeñas y cerca de zonas urbanas; las más grandes tienen frecuencias intermedias y están más alejadas de áreas de continuidad de vegetación".
+Como resultado y tratándose de un grupo humano amante de la naturaleza y del hermoso lugar donde vivimos, este desafío nos atrajo particularmente, debido a la enorme oportunidad de aplicar la tecnología para aportar a la solución de un problema tan importante, y al deseo incontenible de participar y colaborar en cuidar lo que amamos.
+
+Objetivos:
+ 
+El principal objetivo de este proyecto es aumentar la asertividad en el proceso de mitigación de incendios, proporcionando información táctica a las organizaciones encargadas de combatirlos. 
+Adicionalmente, otro objetivo será el de disponer datos inteligentes sobre sucesos actuales para ayudar a los servicios de lucha contra incendios en el futuro.
+
+La Filosofía
+Nuestra filosofía se centra en ayudar a las autoridades y bomberos, proporcionando información para mantener a nuestra tierra (y a todo el mundo si nos permiten) fuera de peligro. Vemos un enorme potencial en el uso de la recopilación de información distribuida sobre el desarrollo de incendios forestales y las circunstancias generales en eventos de emergencia que podrían ayudar a las autoridades a tomar decisiones tácticas para salvar vidas, suelo, flora, fauna y recursos materiales. En esencia, esperamos aportar lo necesario para fomentar la cooperación y mejorar el bienestar humano.
+
+Visión general de nuestra construcción
+
+Interfaz para los departamentos de bomberos.
+Los establecimientos de Bomberos Voluntarios necesitan información cruzada que les permita organizar tácticamente sus recursos disponibles, tanto humanos, herramientas y esfuerzos mancomunados a fin de ser lo más certeros posibles  con el fin de sofocar la voracidad de cualquier incendio.
+Queremos colaborar con ellos. Debido a esto, vemos factores importantes de la aplicación como incendios forestales, dirección de vientos, humedad del suelo según la estación y situación topográfica, tipo de vegetación, presión atmosférica, probabilidad de lluvias entre muchos, que proponemos integrar en único modelo capaz de predecir con un alto grado de certeza la velocidad y dirección del avance del fuego; desde unos pocos minutos hasta varias horas a futuro, permitiendo el desarrollo de las acciones tácticas necesarias para mitigar el siniestro. Por lo tanto, proponemos la creación de nuestra interfaz para los autoridades  y departamentos de bomberos que sirve para dar un flujo de datos persistente de información en una manera más moderna y eficiente. Además, la interfaz integra nuestros modelos de aprendizaje automático que pueden armar a estos actores con más conocimiento. 
+
+La aplicación
+IA en Foco abordó este problema mediante el diseño de una aplicación de múltiple uso. Además, el aprendizaje automático se utilizó para predecir la propagación de un incendio existente basado en índices confiables disponibles en distintos repositorios de la nube. Nuestro modelo será entrenado con datos históricos en: información topográfica, los niveles de viento, humedad, presión atmosférica y pronósticos del tiempo para tener en cuenta todos los factores de crecimiento del fuego posibles y pronosticar su comportamiento, y colaborar con las decisiones tácticas necesarias para su rápida contención.
+Esta aplicación tiene por fin mostrar el estado actual de las condiciones del incendio, prediciendo el comportamiento del fuego con antelación, desde el instante de consulta hasta 7 días a futuro, generando un mapa dinámico del fuego y de su comportamiento. 
+Se confía en una interfaz de usuario, minimalista y sencilla, para adaptarse a usuarios de todas las edades.
+
+
+
+
+
+Lista de recursos preliminares:
+•	Imágenes del conjunto NASA con datos de incendios forestales
+•	Algoritmos de aprendizaje automático (Bibliotecas específicas en Python, R, entre otros)
+•	Datos de información pública (Api´s Open Weather, Windfinder, Google Earth, etc)
